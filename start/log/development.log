@@ -1,0 +1,890 @@
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/posts?utf8=%E2%9C%93&query=rice" for 127.0.0.1 at 2012-09-24 09:35:44 -0500
+Connecting to database specified by database.yml
+Processing by PostsController#index as HTML
+  Parameters: {"utf8"=>"✓", "query"=>"rice"}
+Completed 500 Internal Server Error in 47ms
+
+ActiveRecord::StatementInvalid (Could not find table 'posts'):
+  app/controllers/posts_controller.rb:3:in `index'
+
+
+  Rendered /Users/shamilton/.rvm/gems/ruby-1.9.2-p290@involver-gatorade/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+  Rendered /Users/shamilton/.rvm/gems/ruby-1.9.2-p290@involver-gatorade/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/shamilton/.rvm/gems/ruby-1.9.2-p290@involver-gatorade/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.9ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-09-24 09:35:46 -0500
+Served asset /rails.png - 304 Not Modified (4ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2012-09-24 09:35:55 -0500
+Processing by PostsController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+ActiveRecord::StatementInvalid (Could not find table 'posts'):
+  app/controllers/posts_controller.rb:3:in `index'
+
+
+  Rendered /Users/shamilton/.rvm/gems/ruby-1.9.2-p290@involver-gatorade/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+  Rendered /Users/shamilton/.rvm/gems/ruby-1.9.2-p290@involver-gatorade/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/shamilton/.rvm/gems/ruby-1.9.2-p290@involver-gatorade/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.4ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2012-09-24 09:37:29 -0500
+Processing by PostsController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+ActiveRecord::StatementInvalid (Could not find table 'posts'):
+  app/controllers/posts_controller.rb:3:in `index'
+
+
+  Rendered /Users/shamilton/.rvm/gems/ruby-1.9.2-p290@involver-gatorade/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered /Users/shamilton/.rvm/gems/ruby-1.9.2-p290@involver-gatorade/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/shamilton/.rvm/gems/ruby-1.9.2-p290@involver-gatorade/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.3ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2012-09-24 09:37:31 -0500
+Processing by PostsController#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+ActiveRecord::StatementInvalid (Could not find table 'posts'):
+  app/controllers/posts_controller.rb:3:in `index'
+
+
+  Rendered /Users/shamilton/.rvm/gems/ruby-1.9.2-p290@involver-gatorade/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /Users/shamilton/.rvm/gems/ruby-1.9.2-p290@involver-gatorade/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (21.1ms)
+  Rendered /Users/shamilton/.rvm/gems/ruby-1.9.2-p290@involver-gatorade/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (27.5ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2012-09-24 09:37:33 -0500
+Processing by PostsController#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+ActiveRecord::StatementInvalid (Could not find table 'posts'):
+  app/controllers/posts_controller.rb:3:in `index'
+
+
+  Rendered /Users/shamilton/.rvm/gems/ruby-1.9.2-p290@involver-gatorade/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /Users/shamilton/.rvm/gems/ruby-1.9.2-p290@involver-gatorade/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/shamilton/.rvm/gems/ruby-1.9.2-p290@involver-gatorade/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.1ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2012-09-24 09:37:36 -0500
+Processing by PostsController#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+ActiveRecord::StatementInvalid (Could not find table 'posts'):
+  app/controllers/posts_controller.rb:3:in `index'
+
+
+  Rendered /Users/shamilton/.rvm/gems/ruby-1.9.2-p290@involver-gatorade/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered /Users/shamilton/.rvm/gems/ruby-1.9.2-p290@involver-gatorade/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/shamilton/.rvm/gems/ruby-1.9.2-p290@involver-gatorade/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.1ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (2.5ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35m (1.0ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreatePosts (20120924143336)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mCREATE TABLE "posts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "body" varchar(255), "user_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20120924143336')
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+Migrating to CreateUsers (20120924143454)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar(255), "last_name" varchar(255), "bio" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20120924143454')
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("posts")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("users")[0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (1.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (2.2ms)[0m  CREATE TABLE "posts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "body" varchar(255), "user_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.7ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar(255), "last_name" varchar(255), "bio" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.5ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35m (0.6ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (0.5ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20120924143454')
+  [1m[36m (0.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20120924143336')[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.0ms)[0m  INSERT INTO "users" ("bio", "created_at", "first_name", "last_name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["bio", "I really love rails with elasticsearch and tire...0"], ["created_at", Mon, 24 Sep 2012 14:51:36 UTC +00:00], ["first_name", "Joe"], ["last_name", "Schmoe0"], ["updated_at", Mon, 24 Sep 2012 14:51:36 UTC +00:00]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("bio", "created_at", "first_name", "last_name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["bio", "I really love rails with elasticsearch and tire...1"], ["created_at", Mon, 24 Sep 2012 14:51:36 UTC +00:00], ["first_name", "Joe"], ["last_name", "Schmoe1"], ["updated_at", Mon, 24 Sep 2012 14:51:36 UTC +00:00]]
+  [1m[35m (0.5ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("bio", "created_at", "first_name", "last_name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["bio", "I really love rails with elasticsearch and tire...2"], ["created_at", Mon, 24 Sep 2012 14:51:36 UTC +00:00], ["first_name", "Joe"], ["last_name", "Schmoe2"], ["updated_at", Mon, 24 Sep 2012 14:51:36 UTC +00:00]]
+  [1m[36m (0.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("bio", "created_at", "first_name", "last_name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["bio", "I really love rails with elasticsearch and tire...3"], ["created_at", Mon, 24 Sep 2012 14:51:36 UTC +00:00], ["first_name", "Joe"], ["last_name", "Schmoe3"], ["updated_at", Mon, 24 Sep 2012 14:51:36 UTC +00:00]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("bio", "created_at", "first_name", "last_name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["bio", "I really love rails with elasticsearch and tire...4"], ["created_at", Mon, 24 Sep 2012 14:51:36 UTC +00:00], ["first_name", "Joe"], ["last_name", "Schmoe4"], ["updated_at", Mon, 24 Sep 2012 14:51:36 UTC +00:00]]
+  [1m[36m (0.5ms)[0m  [1mcommit transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (1.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (2.5ms)[0m  CREATE TABLE "posts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "body" varchar(255), "user_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (1.0ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar(255), "last_name" varchar(255), "bio" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.7ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35m (1.0ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (0.7ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20120924143454')
+  [1m[36m (0.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20120924143336')[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.8ms)[0m  INSERT INTO "users" ("bio", "created_at", "first_name", "last_name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["bio", "I really love rails with elasticsearch and tire...0"], ["created_at", Mon, 24 Sep 2012 14:52:44 UTC +00:00], ["first_name", "Joe"], ["last_name", "Schmoe0"], ["updated_at", Mon, 24 Sep 2012 14:52:44 UTC +00:00]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "posts" ("body", "created_at", "title", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["body", "Some times I just like writing about Rails and search.0"], ["created_at", Mon, 24 Sep 2012 14:52:44 UTC +00:00], ["title", "Test Post0"], ["updated_at", Mon, 24 Sep 2012 14:52:44 UTC +00:00], ["user_id", 1]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("bio", "created_at", "first_name", "last_name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["bio", "I really love rails with elasticsearch and tire...1"], ["created_at", Mon, 24 Sep 2012 14:52:44 UTC +00:00], ["first_name", "Joe"], ["last_name", "Schmoe1"], ["updated_at", Mon, 24 Sep 2012 14:52:44 UTC +00:00]]
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "posts" ("body", "created_at", "title", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["body", "Some times I just like writing about Rails and search.1"], ["created_at", Mon, 24 Sep 2012 14:52:44 UTC +00:00], ["title", "Test Post1"], ["updated_at", Mon, 24 Sep 2012 14:52:44 UTC +00:00], ["user_id", 2]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("bio", "created_at", "first_name", "last_name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["bio", "I really love rails with elasticsearch and tire...2"], ["created_at", Mon, 24 Sep 2012 14:52:44 UTC +00:00], ["first_name", "Joe"], ["last_name", "Schmoe2"], ["updated_at", Mon, 24 Sep 2012 14:52:44 UTC +00:00]]
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "posts" ("body", "created_at", "title", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["body", "Some times I just like writing about Rails and search.2"], ["created_at", Mon, 24 Sep 2012 14:52:44 UTC +00:00], ["title", "Test Post2"], ["updated_at", Mon, 24 Sep 2012 14:52:44 UTC +00:00], ["user_id", 3]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("bio", "created_at", "first_name", "last_name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["bio", "I really love rails with elasticsearch and tire...3"], ["created_at", Mon, 24 Sep 2012 14:52:44 UTC +00:00], ["first_name", "Joe"], ["last_name", "Schmoe3"], ["updated_at", Mon, 24 Sep 2012 14:52:44 UTC +00:00]]
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "posts" ("body", "created_at", "title", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["body", "Some times I just like writing about Rails and search.3"], ["created_at", Mon, 24 Sep 2012 14:52:44 UTC +00:00], ["title", "Test Post3"], ["updated_at", Mon, 24 Sep 2012 14:52:44 UTC +00:00], ["user_id", 4]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("bio", "created_at", "first_name", "last_name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["bio", "I really love rails with elasticsearch and tire...4"], ["created_at", Mon, 24 Sep 2012 14:52:44 UTC +00:00], ["first_name", "Joe"], ["last_name", "Schmoe4"], ["updated_at", Mon, 24 Sep 2012 14:52:44 UTC +00:00]]
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "posts" ("body", "created_at", "title", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["body", "Some times I just like writing about Rails and search.4"], ["created_at", Mon, 24 Sep 2012 14:52:44 UTC +00:00], ["title", "Test Post4"], ["updated_at", Mon, 24 Sep 2012 14:52:44 UTC +00:00], ["user_id", 5]]
+  [1m[35m (0.9ms)[0m  commit transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (2.9ms)[0m  [1mINSERT INTO "users" ("bio", "created_at", "first_name", "last_name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["bio", "I really love rails with elasticsearch and tire...0"], ["created_at", Mon, 24 Sep 2012 14:52:54 UTC +00:00], ["first_name", "Joe"], ["last_name", "Schmoe0"], ["updated_at", Mon, 24 Sep 2012 14:52:54 UTC +00:00]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "posts" ("body", "created_at", "title", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)  [["body", "Some times I just like writing about Rails and search.0"], ["created_at", Mon, 24 Sep 2012 14:52:54 UTC +00:00], ["title", "Test Post0"], ["updated_at", Mon, 24 Sep 2012 14:52:54 UTC +00:00], ["user_id", 6]]
+  [1m[36m (2.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("bio", "created_at", "first_name", "last_name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["bio", "I really love rails with elasticsearch and tire...1"], ["created_at", Mon, 24 Sep 2012 14:52:54 UTC +00:00], ["first_name", "Joe"], ["last_name", "Schmoe1"], ["updated_at", Mon, 24 Sep 2012 14:52:54 UTC +00:00]]
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "posts" ("body", "created_at", "title", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)  [["body", "Some times I just like writing about Rails and search.1"], ["created_at", Mon, 24 Sep 2012 14:52:54 UTC +00:00], ["title", "Test Post1"], ["updated_at", Mon, 24 Sep 2012 14:52:54 UTC +00:00], ["user_id", 7]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("bio", "created_at", "first_name", "last_name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["bio", "I really love rails with elasticsearch and tire...2"], ["created_at", Mon, 24 Sep 2012 14:52:54 UTC +00:00], ["first_name", "Joe"], ["last_name", "Schmoe2"], ["updated_at", Mon, 24 Sep 2012 14:52:54 UTC +00:00]]
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "posts" ("body", "created_at", "title", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)  [["body", "Some times I just like writing about Rails and search.2"], ["created_at", Mon, 24 Sep 2012 14:52:54 UTC +00:00], ["title", "Test Post2"], ["updated_at", Mon, 24 Sep 2012 14:52:54 UTC +00:00], ["user_id", 8]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("bio", "created_at", "first_name", "last_name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["bio", "I really love rails with elasticsearch and tire...3"], ["created_at", Mon, 24 Sep 2012 14:52:54 UTC +00:00], ["first_name", "Joe"], ["last_name", "Schmoe3"], ["updated_at", Mon, 24 Sep 2012 14:52:54 UTC +00:00]]
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "posts" ("body", "created_at", "title", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)  [["body", "Some times I just like writing about Rails and search.3"], ["created_at", Mon, 24 Sep 2012 14:52:54 UTC +00:00], ["title", "Test Post3"], ["updated_at", Mon, 24 Sep 2012 14:52:54 UTC +00:00], ["user_id", 9]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("bio", "created_at", "first_name", "last_name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["bio", "I really love rails with elasticsearch and tire...4"], ["created_at", Mon, 24 Sep 2012 14:52:54 UTC +00:00], ["first_name", "Joe"], ["last_name", "Schmoe4"], ["updated_at", Mon, 24 Sep 2012 14:52:54 UTC +00:00]]
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "posts" ("body", "created_at", "title", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)  [["body", "Some times I just like writing about Rails and search.4"], ["created_at", Mon, 24 Sep 2012 14:52:54 UTC +00:00], ["title", "Test Post4"], ["updated_at", Mon, 24 Sep 2012 14:52:54 UTC +00:00], ["user_id", 10]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+
+
+Started GET "/posts" for 127.0.0.1 at 2012-09-24 09:53:02 -0500
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts" [0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb__1271431784634354132_70327351055700 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb__1271431784634354132_70327351055700 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb__1271431784634354132_70327351055700 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb__1271431784634354132_70327351055700 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb__1271431784634354132_70327351055700 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb__1271431784634354132_70327351055700 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb__1271431784634354132_70327351055700 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb__1271431784634354132_70327351055700 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb__1271431784634354132_70327351055700 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb__1271431784634354132_70327351055700 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+  Rendered posts/index.html.erb within layouts/application (8.7ms)
+Compiled application.css  (0ms)  (pid 12512)
+Completed 200 OK in 50ms (Views: 44.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-24 09:53:03 -0500
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/defaults.js" for 127.0.0.1 at 2012-09-24 09:53:03 -0500
+Served asset /defaults.js - 404 Not Found (2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/defaults.js"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/shamilton/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/shamilton/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/shamilton/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/shamilton/.rvm/gems/ruby-1.9.2-p290@involver-gatorade/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-09-24 09:54:41 -0500
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (7.1ms)
+  Rendered posts/new.html.erb within layouts/application (16.7ms)
+Completed 200 OK in 22ms (Views: 21.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/defaults.js" for 127.0.0.1 at 2012-09-24 09:54:41 -0500
+Served asset /defaults.js - 404 Not Found (2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/defaults.js"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/shamilton/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/shamilton/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/shamilton/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/shamilton/.rvm/gems/ruby-1.9.2-p290@involver-gatorade/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2012-09-24 10:02:50 -0500
+Connecting to database specified by database.yml
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.5ms)[0m  [1mSELECT "posts".* FROM "posts" [0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb__582759672895590943_70322458340420 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb__582759672895590943_70322458340420 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb__582759672895590943_70322458340420 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb__582759672895590943_70322458340420 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb__582759672895590943_70322458340420 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb__582759672895590943_70322458340420 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb__582759672895590943_70322458340420 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb__582759672895590943_70322458340420 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb__582759672895590943_70322458340420 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb__582759672895590943_70322458340420 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+  Rendered posts/index.html.erb within layouts/application (15.5ms)
+Compiled application.css  (0ms)  (pid 13550)
+Compiled jquery.js  (3ms)  (pid 13550)
+Compiled jquery_ujs.js  (0ms)  (pid 13550)
+Compiled application.js  (34ms)  (pid 13550)
+Completed 200 OK in 161ms (Views: 114.5ms | ActiveRecord: 5.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-24 10:02:51 -0500
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-24 10:02:51 -0500
+Served asset /jquery.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-24 10:02:51 -0500
+Served asset /jquery_ujs.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-24 10:02:51 -0500
+Served asset /application.js - 200 OK (3ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2012-09-24 10:16:52 -0500
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" 
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb__582759672895590943_70322458340420 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb__582759672895590943_70322458340420 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb__582759672895590943_70322458340420 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb__582759672895590943_70322458340420 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb__582759672895590943_70322458340420 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb__582759672895590943_70322458340420 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb__582759672895590943_70322458340420 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb__582759672895590943_70322458340420 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb__582759672895590943_70322458340420 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb__582759672895590943_70322458340420 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+  Rendered posts/index.html.erb within layouts/application (7.2ms)
+Compiled application.css  (0ms)  (pid 13550)
+Completed 200 OK in 18ms (Views: 17.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-24 10:16:52 -0500
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-24 10:16:52 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-24 10:16:52 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-24 10:16:52 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2012-09-24 10:17:08 -0500
+Connecting to database specified by database.yml
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts" [0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb__836127498637790958_70119927669960 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb__836127498637790958_70119927669960 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb__836127498637790958_70119927669960 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb__836127498637790958_70119927669960 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb__836127498637790958_70119927669960 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb__836127498637790958_70119927669960 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb__836127498637790958_70119927669960 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb__836127498637790958_70119927669960 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb__836127498637790958_70119927669960 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb__836127498637790958_70119927669960 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+  Rendered posts/index.html.erb within layouts/application (15.4ms)
+Completed 200 OK in 124ms (Views: 72.8ms | ActiveRecord: 5.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-24 10:17:09 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-24 10:17:09 -0500
+Served asset /jquery.js - 304 Not Modified (23ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-24 10:17:09 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-24 10:17:09 -0500
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2012-09-24 10:18:25 -0500
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" 
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb__836127498637790958_70119927669960 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb__836127498637790958_70119927669960 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb__836127498637790958_70119927669960 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb__836127498637790958_70119927669960 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb__836127498637790958_70119927669960 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb__836127498637790958_70119927669960 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb__836127498637790958_70119927669960 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb__836127498637790958_70119927669960 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb__836127498637790958_70119927669960 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb__836127498637790958_70119927669960 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+  Rendered posts/index.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 15ms (Views: 13.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-24 10:18:25 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-24 10:18:25 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-24 10:18:25 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-24 10:18:25 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2012-09-24 10:18:27 -0500
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts" [0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb__836127498637790958_70119927669960 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb__836127498637790958_70119927669960 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb__836127498637790958_70119927669960 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb__836127498637790958_70119927669960 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb__836127498637790958_70119927669960 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb__836127498637790958_70119927669960 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb__836127498637790958_70119927669960 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb__836127498637790958_70119927669960 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb__836127498637790958_70119927669960 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb__836127498637790958_70119927669960 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+  Rendered posts/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-24 10:18:27 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-24 10:18:27 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-24 10:18:27 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-24 10:18:27 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2012-09-24 10:18:35 -0500
+Connecting to database specified by database.yml
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts" [0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+  Rendered posts/index.html.erb within layouts/application (15.1ms)
+Completed 200 OK in 126ms (Views: 63.4ms | ActiveRecord: 5.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-24 10:18:36 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-24 10:18:36 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-24 10:18:36 -0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-24 10:18:36 -0500
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2012-09-24 10:18:54 -0500
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" 
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+  Rendered posts/index.html.erb within layouts/application (7.6ms)
+WARNING on line 1 of /Users/shamilton/Projects/elastic_tire_demo/vendor/assets/stylesheets/stylesheet.sass:
+This selector doesn't have any properties and will not be rendered.
+Completed 500 Internal Server Error in 41ms
+
+ActionView::Template::Error (Invalid CSS after "": expected expression (e.g. 1px, bold), was "= !primary_color"
+  (in /Users/shamilton/Projects/elastic_tire_demo/vendor/assets/stylesheets/stylesheet.sass)):
+    2: <html>
+    3:   <head>
+    4:     <title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+    5:     <%= stylesheet_link_tag "application" %>
+    6:     <%= javascript_include_tag "application" %>
+    7:     <%= csrf_meta_tag %>
+    8:     <%= yield(:head) %>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1158813035704068547_70163933046240'
+
+
+  Rendered /Users/shamilton/.rvm/gems/ruby-1.9.2-p290@involver-gatorade/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (23.6ms)
+  Rendered /Users/shamilton/.rvm/gems/ruby-1.9.2-p290@involver-gatorade/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/shamilton/.rvm/gems/ruby-1.9.2-p290@involver-gatorade/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (30.9ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2012-09-24 10:19:33 -0500
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts" [0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+  Rendered posts/index.html.erb within layouts/application (8.0ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (couldn't find file 'stylesheet'
+  (in /Users/shamilton/Projects/elastic_tire_demo/app/assets/stylesheets/application.css:12)):
+    2: <html>
+    3:   <head>
+    4:     <title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+    5:     <%= stylesheet_link_tag "application" %>
+    6:     <%= javascript_include_tag "application" %>
+    7:     <%= csrf_meta_tag %>
+    8:     <%= yield(:head) %>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1158813035704068547_70163933046240'
+
+
+  Rendered /Users/shamilton/.rvm/gems/ruby-1.9.2-p290@involver-gatorade/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.5ms)
+  Rendered /Users/shamilton/.rvm/gems/ruby-1.9.2-p290@involver-gatorade/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/shamilton/.rvm/gems/ruby-1.9.2-p290@involver-gatorade/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.9ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2012-09-24 10:20:09 -0500
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" 
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+  Rendered posts/index.html.erb within layouts/application (7.4ms)
+WARNING on line 1 of /Users/shamilton/Projects/elastic_tire_demo/vendor/assets/stylesheets/stylesheet.sass:
+This selector doesn't have any properties and will not be rendered.
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (Invalid CSS after "": expected expression (e.g. 1px, bold), was "= !primary_color"
+  (in /Users/shamilton/Projects/elastic_tire_demo/vendor/assets/stylesheets/stylesheet.sass)):
+    2: <html>
+    3:   <head>
+    4:     <title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+    5:     <%= stylesheet_link_tag "application" %>
+    6:     <%= javascript_include_tag "application" %>
+    7:     <%= csrf_meta_tag %>
+    8:     <%= yield(:head) %>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1158813035704068547_70163933046240'
+
+
+  Rendered /Users/shamilton/.rvm/gems/ruby-1.9.2-p290@involver-gatorade/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.8ms)
+  Rendered /Users/shamilton/.rvm/gems/ruby-1.9.2-p290@involver-gatorade/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/shamilton/.rvm/gems/ruby-1.9.2-p290@involver-gatorade/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (28.5ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2012-09-24 10:25:03 -0500
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" [0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+  Rendered posts/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 17ms (Views: 15.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-09-24 10:25:03 -0500
+Served asset /application.css - 404 Not Found (2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/application.css"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/shamilton/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/shamilton/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/shamilton/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/shamilton/.rvm/gems/ruby-1.9.2-p290@involver-gatorade/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/defaults.js" for 127.0.0.1 at 2012-09-24 10:25:03 -0500
+Served asset /defaults.js - 404 Not Found (2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/defaults.js"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/shamilton/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/shamilton/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/shamilton/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/shamilton/.rvm/gems/ruby-1.9.2-p290@involver-gatorade/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2012-09-24 10:26:05 -0500
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" 
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+  Rendered posts/index.html.erb within layouts/application (7.5ms)
+Compiled application.css  (0ms)  (pid 13758)
+Completed 200 OK in 19ms (Views: 18.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-24 10:26:05 -0500
+Served asset /application.css - 200 OK (3ms)
+
+
+Started GET "/assets/defaults.js" for 127.0.0.1 at 2012-09-24 10:26:05 -0500
+Served asset /defaults.js - 404 Not Found (23ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/defaults.js"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/shamilton/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/shamilton/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/shamilton/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/shamilton/.rvm/gems/ruby-1.9.2-p290@involver-gatorade/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2012-09-24 10:26:23 -0500
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" [0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.0. Use ':data => { :confirm => 'Text' }' instead. (called from block in _app_views_posts_index_html_erb___4523712875325529734_70163933051040 at /Users/shamilton/Projects/elastic_tire_demo/app/views/posts/index.html.erb:16)
+  Rendered posts/index.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-24 10:26:23 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/defaults.js" for 127.0.0.1 at 2012-09-24 10:26:23 -0500
+Served asset /defaults.js - 404 Not Found (2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/defaults.js"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/shamilton/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/shamilton/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/shamilton/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/shamilton/.rvm/gems/ruby-1.9.2-p290@involver-gatorade/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2012-09-24 10:38:01 -0500
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" 
+  Rendered posts/index.html.erb within layouts/application (9.7ms)
+Completed 500 Internal Server Error in 12ms
+
+ActionView::Template::Error (undefined local variable or method `articles_path' for #<#<Class:0x007fa0a0c42e88>:0x007fa09d5d2e48>):
+    2: 
+    3: <h1>Posts</h1>
+    4: 
+    5: <%= form_tag articles_path, method: :get do %>
+    6:   <p>
+    7:     <%= text_field_tag :query, params[:query] %>
+    8:     <%= submit_tag "Search", name: nil %>
+  app/views/posts/index.html.erb:5:in `_app_views_posts_index_html_erb___4523712875325529734_70163905040160'
+
+
+  Rendered /Users/shamilton/.rvm/gems/ruby-1.9.2-p290@involver-gatorade/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+  Rendered /Users/shamilton/.rvm/gems/ruby-1.9.2-p290@involver-gatorade/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/shamilton/.rvm/gems/ruby-1.9.2-p290@involver-gatorade/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.5ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2012-09-24 10:39:03 -0500
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts" [0m
+  Rendered posts/index.html.erb within layouts/application (7.8ms)
+Completed 500 Internal Server Error in 15ms
+
+ActionView::Template::Error (undefined local variable or method `user' for #<#<Class:0x007fa0a0f9ff18>:0x007fa0a0f9cd40>):
+    13:   <% @posts.each do |post| %>
+    14:     <h2><%= link_to post.title, post %></h2>
+    15:     <div class="info">
+    16:       by <%= user.full_name %>
+    17:       on <%= user.created_at.strftime('%b %d, %Y') %>
+    18:     </div>
+    19:     <div class="body">
+  app/views/posts/index.html.erb:16:in `block in _app_views_posts_index_html_erb___4523712875325529734_70163936107840'
+  app/views/posts/index.html.erb:13:in `each'
+  app/views/posts/index.html.erb:13:in `_app_views_posts_index_html_erb___4523712875325529734_70163936107840'
+
+
+  Rendered /Users/shamilton/.rvm/gems/ruby-1.9.2-p290@involver-gatorade/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+  Rendered /Users/shamilton/.rvm/gems/ruby-1.9.2-p290@involver-gatorade/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/shamilton/.rvm/gems/ruby-1.9.2-p290@involver-gatorade/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.4ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2012-09-24 10:39:25 -0500
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" 
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 5 LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 6 LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 7 LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 8 LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 9 LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 10 LIMIT 1
+  Rendered posts/index.html.erb within layouts/application (71.4ms)
+Completed 200 OK in 77ms (Views: 74.6ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-24 10:39:25 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/defaults.js" for 127.0.0.1 at 2012-09-24 10:39:25 -0500
+Served asset /defaults.js - 404 Not Found (2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/defaults.js"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/shamilton/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/shamilton/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/shamilton/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/shamilton/.rvm/gems/ruby-1.9.2-p290@involver-gatorade/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2012-09-24 10:39:56 -0500
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" [0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 5 LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 6 LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 7 LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 8 LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 9 LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 10 LIMIT 1[0m
+  Rendered posts/index.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 17ms (Views: 15.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-24 10:39:56 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/defaults.js" for 127.0.0.1 at 2012-09-24 10:39:57 -0500
+Served asset /defaults.js - 404 Not Found (2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/defaults.js"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/shamilton/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/shamilton/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/shamilton/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/shamilton/.rvm/gems/ruby-1.9.2-p290@involver-gatorade/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)

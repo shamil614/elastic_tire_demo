@@ -1,0 +1,39 @@
+<% title "Posts" %>
+
+<%= form_tag posts_path, method: :get do %>
+  <p>
+    <%= text_field_tag :query, params[:query] %>
+    <%= submit_tag "Search", name: nil %>
+  </p>
+<% end %>
+
+<div id="facets">
+  <h3>Users</h3>
+  <ul>
+    <% @posts.facets['users']['terms'].each do |facet| %>
+      <li>
+        <%= link_to_unless_current User.find(facet['term']).full_name, params.merge(user_id: facet['term']) %>
+        <% if params[:user_id] == facet['term'].to_s %>
+          (<%= link_to "remove", user_id: nil %>)
+        <% else %>
+          (<%= facet['count'] %>)
+        <% end %>
+      </li>
+    <% end %>
+  </ul>
+</div>
+
+<div id="posts">
+  <% @posts.each do |post| %>
+    <h2><%= link_to post.title, post %></h2>
+    <div class="info">
+      by <%= post.user_full_name %>
+      on <%= post.created_at.to_time.strftime('%b %d, %Y') %>
+    </div>
+    <div class="body">
+      <%= post.body %>
+    </div>
+  <% end %> 
+</div>
+<div class="clear"> </div>
+<%= will_paginate @posts %>
