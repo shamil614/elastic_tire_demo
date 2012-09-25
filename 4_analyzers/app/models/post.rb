@@ -5,15 +5,13 @@ class Post < ActiveRecord::Base
   include Tire::Model::Search
   include Tire::Model::Callbacks
 
-  settings  number_of_shards: 1,
-            number_of_replicas: 1,
-            analysis: {
+  settings  analysis: {
               filter: {
                 front_edge: {
                  type: "edgeNGram",
                  side: "front",
                  max_gram: 8,
-                 min_gram: 3 
+                 min_gram: 4 
                 }
               },
               analyzer: {
@@ -22,7 +20,7 @@ class Post < ActiveRecord::Base
                   filter: %w{asciifolding lowercase front_edge}
                 },
                 whole_sort: {
-                  tokenizer: 'keyword', #cut nothing, it's just for sorting
+                  tokenizer: 'keyword',
                   filter: %w{asciifolding lowercase}
                 }
               }
@@ -33,6 +31,9 @@ class Post < ActiveRecord::Base
       indexes :body, type: 'multi_field', fields: {
         start: {
           type: 'string', analyzer: 'partial_match', include_in_all: false
+        },
+        kw: {
+          type: 'string', analyzer: 'snowball', include_in_all: false
         },
         sort: {
           type: 'string', analyzer: 'whole_sort', include_in_all: false
@@ -50,12 +51,17 @@ class Post < ActiveRecord::Base
     tire.search(page: params[:page], per_page: 3) do 
       query do 
         boolean do 
-          must { string "body.start:#{params[:query]}", default_operator: "AND" } if params[:query].present?
+          must { string "body.start:#{params[:query]} OR body.kw:#{params[:query]} 
+                OR #{params[:query]}", default_operator: "AND" } if params[:query].present?
           must { range :created_at, lte: Time.zone.now }
           must { term :user_id, params[:user_id] } if params[:user_id].present?
         end
       end
-      sort { by :created_at, "desc" } if params[:query].blank?
+      if params[:query].blank?
+        sort { by :created_at, "desc" }
+      else
+        sort {by 'body.sort', 'asc' }
+      end 
       facet "users" do
         terms :user_id
       end
